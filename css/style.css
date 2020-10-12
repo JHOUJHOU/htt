@@ -46,3 +46,67 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+.menu{
+    margin: 0 auto;
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}   
+.menu-item{
+    display: block;
+    
+}
+.logo{
+    display:flex;
+    justify-content: space-between;
+    border-style:2px solid black;
+    /*background: #FFFFAA; /*黃色*/
+    background: #DEFFAC; /*綠色*/
+    /*background: #DAB1D5; /*紫色*/
+    /*background: #FFCBB3; /*橘色*/
+    /*background: #D9B3B3; /*咖啡色*/
+    /*ackground: #FFAAD5; /*粉紅色*/
+
+}
+.logo-item{
+    display:block;
+}
+.imglogo{
+    width: 600px;
+    height: 100px;
+}
+.logotitle{
+    font-size: 38px;
+    padding-top: 35px;
+    font-family:DFKai-sb;
+    font-weight: bold;
+}
+.body{
+    margin: 0 auto;
+    width: 1200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.body-item{
+    display: block;
+    height: 200px;
+    background: #FFCBB3; /*橘色*/
+    font-size: 24px;
+    font-family:DFKai-sb;
+}
+.signin{
+    width: 300px;
+    font-size: 24px;
+    font-family:DFKai-sb;
+}
+.footer{
+    margin: 0 auto;
+    background: #DEFFAC; /*綠色*/
+    font-size: 20px;
+    font-family:DFKai-sb;
+    text-align:center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
